@@ -1,0 +1,11 @@
+
+.grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+form{
+    border: 3px solid black;
+}
+.inline{
+    display: inline;
+}
