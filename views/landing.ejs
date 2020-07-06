@@ -26,16 +26,16 @@
         </div>
         <div class="grid">
             <% info.forEach(function(el){ %>
-                <form action="/<%= el._id %>?_method=PUT" method="POST">
+                <form style="background-color: rgb(214, 177, 248);" action="/<%= el._id %>?_method=PUT" method="POST">
                     <div>
-                        <a>name</a>
+                        <strong>😻Name😻</strong>
                         <input type="text" name="name" class="form-control" value="<%= el.mask_name %>">
                     </div>
                     <div> 
-                        <a>number</a>
+                        <strong>🐹Number🐹</strong>
                         <input type="text" name="number" class="form-control" value="<%= el.mask_number %>">
                     </div>
-                    <button type="submit">Save</button>
+                    <button class="submit" style="" type="submit">Save</button>
                 </form>
             <% }); %>
         </div>

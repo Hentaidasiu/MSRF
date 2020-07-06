@@ -4,8 +4,15 @@
     grid-template-columns: 50% 50%;
 }
 form{
-    border: 3px solid black;
+    border: 3px solid rgb(255, 129, 150);
 }
 .inline{
     display: inline;
+}
+.submit{
+    background-color: pink;
+    float: right;
+}
+strong{
+    font-size: 20px;
 }

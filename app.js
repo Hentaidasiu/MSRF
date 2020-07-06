@@ -72,7 +72,7 @@ app.use(function(req,res,next){
 //     }
 // )
 // mask.create({
-//     mask_name : "test 6",
+//     mask_name : "test 10",
 //     mask_number : 1,
 //     count : "1"
 //     }
